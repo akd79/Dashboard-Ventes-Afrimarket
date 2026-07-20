@@ -1,0 +1,25 @@
+=== AUDIT & NETTOYAGE - AfriMarket ===
+Lignes brutes : 10100
+Colonnes : ['id_commande', 'date_commande', 'id_client', 'ville', 'categorie', 'nom_produit', 'prix_unitaire', 'quantite', 'remise', 'cout_livraison', 'methode_paiement', 'canal_marketing', 'cout_marketing', 'statut_commande']
+
+[Doublons] 100 lignes strictement dupliquees supprimees -> 10000 lignes restantes
+[Dates] 0 dates non convertibles (attendu 0)
+[Villes] 600 lignes 'Kinshassa' corrigees en 'Kinshasa'
+  Villes finales : ['Abidjan', 'Brazzaville', 'Cotonou', 'Dakar', 'Douala', 'Kinshasa', 'Libreville', 'Lomé']
+[Categorie] colonne reconstruite depuis nom_produit (prefixe 100% fiable)
+  600 lignes avaient une categorie brute incoherente / mal casee
+  Categories finales : ['Beauté', 'Maison', 'Mode', 'Électronique']
+[Statuts] casse uniformisee : ['Annulée', 'Livrée', 'Retournée']
+statut_commande
+Livrée       8991
+Retournée     816
+Annulée       193
+
+[Prix] 600 valeurs sentinelles (-50.00) imputees par la mediane du produit
+[Prix] 22 valeurs negatives isolees corrigees (valeur absolue)
+  Prix <= 0 restants : 0
+[Remise] 600 valeurs negatives (-0.10) corrigees (valeur absolue)
+  Remise range apres correction : [0.0, 0.3]
+[Quantite] 600 lignes avec quantite=0 supprimees (incoherentes)
+
+Lignes finales apres nettoyage : 9400 (perte totale : 700 lignes, 6.9%)

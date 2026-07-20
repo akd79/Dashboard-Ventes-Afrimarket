@@ -1,0 +1,334 @@
+{
+  "performance_globale": {
+    "ca_total": 2496745.27,
+    "profit_net_total": 363340.2,
+    "panier_moyen": 270.88,
+    "taux_annulation": 1.95,
+    "taux_retour": 8.14,
+    "nb_commandes": 9400
+  },
+  "categorie": {
+    "table": [
+      {
+        "categorie": "Électronique",
+        "ca": 1823431.88,
+        "marge": 273514.78,
+        "profit_net": 197176.31,
+        "nb_commandes": 2597,
+        "taux_retour": 15.33
+      },
+      {
+        "categorie": "Maison",
+        "ca": 395738.73,
+        "marge": 138508.56,
+        "profit_net": 106139.43,
+        "nb_commandes": 1916,
+        "taux_retour": 4.91
+      },
+      {
+        "categorie": "Mode",
+        "ca": 196058.02,
+        "marge": 88226.11,
+        "profit_net": 41726.08,
+        "nb_commandes": 3000,
+        "taux_retour": 7.33
+      },
+      {
+        "categorie": "Beauté",
+        "ca": 81516.64,
+        "marge": 44834.15,
+        "profit_net": 18298.38,
+        "nb_commandes": 1887,
+        "taux_retour": 2.81
+      }
+    ],
+    "categorie_prioritaire_ca": "Électronique",
+    "categorie_pire_retour": "Électronique",
+    "evolution_mensuelle": [
+      {
+        "mois": "2025-07",
+        "categorie": "Beauté",
+        "chiffre_affaires": 13447.13
+      },
+      {
+        "mois": "2025-07",
+        "categorie": "Maison",
+        "chiffre_affaires": 48473.56
+      },
+      {
+        "mois": "2025-07",
+        "categorie": "Mode",
+        "chiffre_affaires": 34995.86
+      },
+      {
+        "mois": "2025-07",
+        "categorie": "Électronique",
+        "chiffre_affaires": 300136.69
+      },
+      {
+        "mois": "2025-08",
+        "categorie": "Beauté",
+        "chiffre_affaires": 14214.05
+      },
+      {
+        "mois": "2025-08",
+        "categorie": "Maison",
+        "chiffre_affaires": 53245.12
+      },
+      {
+        "mois": "2025-08",
+        "categorie": "Mode",
+        "chiffre_affaires": 34905.12
+      },
+      {
+        "mois": "2025-08",
+        "categorie": "Électronique",
+        "chiffre_affaires": 324924.87
+      },
+      {
+        "mois": "2025-09",
+        "categorie": "Beauté",
+        "chiffre_affaires": 11580.54
+      },
+      {
+        "mois": "2025-09",
+        "categorie": "Maison",
+        "chiffre_affaires": 45824.78
+      },
+      {
+        "mois": "2025-09",
+        "categorie": "Mode",
+        "chiffre_affaires": 36808.6
+      },
+      {
+        "mois": "2025-09",
+        "categorie": "Électronique",
+        "chiffre_affaires": 301731.16
+      },
+      {
+        "mois": "2025-10",
+        "categorie": "Beauté",
+        "chiffre_affaires": 14589.68
+      },
+      {
+        "mois": "2025-10",
+        "categorie": "Maison",
+        "chiffre_affaires": 47966.07
+      },
+      {
+        "mois": "2025-10",
+        "categorie": "Mode",
+        "chiffre_affaires": 37176.65
+      },
+      {
+        "mois": "2025-10",
+        "categorie": "Électronique",
+        "chiffre_affaires": 327232.95
+      },
+      {
+        "mois": "2025-11",
+        "categorie": "Beauté",
+        "chiffre_affaires": 13045.57
+      },
+      {
+        "mois": "2025-11",
+        "categorie": "Maison",
+        "chiffre_affaires": 93752.4
+      },
+      {
+        "mois": "2025-11",
+        "categorie": "Mode",
+        "chiffre_affaires": 25539.17
+      },
+      {
+        "mois": "2025-11",
+        "categorie": "Électronique",
+        "chiffre_affaires": 256058.13
+      },
+      {
+        "mois": "2025-12",
+        "categorie": "Beauté",
+        "chiffre_affaires": 14639.68
+      },
+      {
+        "mois": "2025-12",
+        "categorie": "Maison",
+        "chiffre_affaires": 106476.8
+      },
+      {
+        "mois": "2025-12",
+        "categorie": "Mode",
+        "chiffre_affaires": 26632.62
+      },
+      {
+        "mois": "2025-12",
+        "categorie": "Électronique",
+        "chiffre_affaires": 313348.08
+      }
+    ]
+  },
+  "geographique": {
+    "table": [
+      {
+        "ville": "Kinshasa",
+        "ca": 752891.33,
+        "profit_net": 109682.8,
+        "taux_annulation": 0.26,
+        "nb_commandes": 2724,
+        "croissance_juillet_decembre_pct": 19.97
+      },
+      {
+        "ville": "Abidjan",
+        "ca": 498115.56,
+        "profit_net": 71353.57,
+        "taux_annulation": 0.0,
+        "nb_commandes": 1756,
+        "croissance_juillet_decembre_pct": 20.28
+      },
+      {
+        "ville": "Dakar",
+        "ca": 346857.96,
+        "profit_net": 51077.89,
+        "taux_annulation": 0.0,
+        "nb_commandes": 1346,
+        "croissance_juillet_decembre_pct": -11.54
+      },
+      {
+        "ville": "Douala",
+        "ca": 327898.83,
+        "profit_net": 47562.73,
+        "taux_annulation": 12.92,
+        "nb_commandes": 1362,
+        "croissance_juillet_decembre_pct": 76.39
+      },
+      {
+        "ville": "Lomé",
+        "ca": 183750.59,
+        "profit_net": 27701.63,
+        "taux_annulation": 0.0,
+        "nb_commandes": 682,
+        "croissance_juillet_decembre_pct": 11.23
+      },
+      {
+        "ville": "Cotonou",
+        "ca": 157958.74,
+        "profit_net": 24274.01,
+        "taux_annulation": 0.0,
+        "nb_commandes": 631,
+        "croissance_juillet_decembre_pct": 4.74
+      },
+      {
+        "ville": "Libreville",
+        "ca": 123331.56,
+        "profit_net": 16537.38,
+        "taux_annulation": 0.0,
+        "nb_commandes": 467,
+        "croissance_juillet_decembre_pct": -46.22
+      },
+      {
+        "ville": "Brazzaville",
+        "ca": 105940.69,
+        "profit_net": 15150.2,
+        "taux_annulation": 0.0,
+        "nb_commandes": 432,
+        "croissance_juillet_decembre_pct": 57.52
+      }
+    ],
+    "ville_top_ca": "Kinshasa",
+    "ville_meilleure_croissance": "Douala"
+  },
+  "marketing": {
+    "table": [
+      {
+        "canal_marketing": "Email",
+        "ca": 527688.32,
+        "cout_marketing_total": 2349.15,
+        "nb_commandes": 1894,
+        "nb_clients": 903,
+        "roi": 223.629,
+        "taux_retention_pct": 46.29
+      },
+      {
+        "canal_marketing": "Google Ads",
+        "ca": 663081.948,
+        "cout_marketing_total": 13158.93,
+        "nb_commandes": 2393,
+        "nb_clients": 1001,
+        "roi": 49.39,
+        "taux_retention_pct": 50.25
+      },
+      {
+        "canal_marketing": "Instagram Ads",
+        "ca": 946400.797,
+        "cout_marketing_total": 37637.07,
+        "nb_commandes": 3765,
+        "nb_clients": 1240,
+        "roi": 24.145,
+        "taux_retention_pct": 54.19
+      },
+      {
+        "canal_marketing": "Influenceur",
+        "ca": 359574.206,
+        "cout_marketing_total": 16359.59,
+        "nb_commandes": 1348,
+        "nb_clients": 755,
+        "roi": 20.979,
+        "taux_retention_pct": 42.38
+      }
+    ],
+    "canal_meilleur_roi": "Email",
+    "canal_pire_roi": "Influenceur"
+  },
+  "clients": {
+    "nb_clients_total": 1747,
+    "pct_clients_recurrents": 74.01,
+    "pct_clients_pour_80pct_ca": 31.83,
+    "top10_clients": [
+      {
+        "id_client": "C0157",
+        "ca_total": 11553.74
+      },
+      {
+        "id_client": "C0266",
+        "ca_total": 10673.23
+      },
+      {
+        "id_client": "C0120",
+        "ca_total": 9542.21
+      },
+      {
+        "id_client": "C0003",
+        "ca_total": 9516.1
+      },
+      {
+        "id_client": "C0051",
+        "ca_total": 9442.25
+      },
+      {
+        "id_client": "C0379",
+        "ca_total": 9105.69
+      },
+      {
+        "id_client": "C0114",
+        "ca_total": 8915.44
+      },
+      {
+        "id_client": "C0067",
+        "ca_total": 8476.41
+      },
+      {
+        "id_client": "C0364",
+        "ca_total": 8252.47
+      },
+      {
+        "id_client": "C0054",
+        "ca_total": 8080.54
+      }
+    ],
+    "segmentation": {
+      "Bronze": 583,
+      "Argent": 582,
+      "Or": 582
+    }
+  }
+}
